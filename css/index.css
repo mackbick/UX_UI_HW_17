@@ -9,6 +9,20 @@ h1{
     font-size: 150px;
     line-height: 180px;
 }
+h2{
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+h3{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
 header{
     position:fixed;
     width: 100%;
