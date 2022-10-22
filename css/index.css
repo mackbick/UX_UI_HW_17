@@ -1,13 +1,14 @@
 body{
     font-family: 'Barlow', sans-serif;
     background-color: #E6E6FA;
+    min-height: 100vh;
 }
 h1{
     font-family: 'Barlow';
     font-style: italic;
     font-weight: 900;
-    font-size: 150px;
-    line-height: 180px;
+    font-size: 120px;
+    line-height: 130px;
 }
 h2{
     font-family: 'Barlow';
@@ -20,8 +21,28 @@ h3{
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 30px;
+    line-height: 35px;
+}
+.h3{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+}
+h4{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+}
+.pinkText{
+    color: #CFB0C1;
+}
+#purpleText{
+    color: #E6E6FA;
 }
 header{
     position:fixed;
@@ -46,10 +67,6 @@ header{
     padding: 1%;
     background-color:#1D2515;
 }
-.inline-block{
-    display: inline-block;
-    vertical-align: middle;
-}
 ul{
   width: 50%;
   margin-left: auto;
@@ -57,7 +74,7 @@ ul{
   position: absolute;
   right: 35%;
   justify-content:space-evenly;
-  top: 35%;
+  top: 25%;
 }
 .heroImg{
    height: 600px;
@@ -65,6 +82,7 @@ ul{
    background-color: #D5D9C3;
    padding-left: 5px;
    border-radius: 15px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .content{
     width: 500px;
@@ -78,12 +96,11 @@ ul{
     padding: 3%;
 }
 #hello{
-position: absolute;
-color: #1D2515;
-right: 10%;
-top: -180px;
-left: -35%;
-
+    position: absolute;
+    color: #1D2515;
+    right: 20%;
+    top: -125px;
+    left: -35%;
 }
 .words{
     position:absolute;
@@ -105,10 +122,14 @@ left: -35%;
 }
 footer{
     background-color: #1D2515;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     height: 10%;
     right: 0%;
     left: 0%;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
 }
